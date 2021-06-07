@@ -1,0 +1,74 @@
+.background-profile{
+    background: #f4f4f4;
+    border-radius: 5px;
+}
+
+
+.detalleproducto {
+    padding-top: 10%;
+    padding-bottom: 10%;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+	color: #383838;
+
+	h4 {
+		font-weight: bold;
+    }
+    
+	h5 {
+		font-weight: bold;
+		font-size: 28px;
+    }
+    
+	h6 {
+		font-weight: bold;
+		font-size: 30px;
+	}
+}
+
+.imput {
+    padding: 10px;
+}
+
+.imput option {
+    padding: 10px;
+}
+
+.fotos-productos{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: stretch;
+    border-radius: 5px;
+} 
+
+.fotos-productos img{
+    background: #f4f4f4;
+    border-radius: 5px;
+} 
+
+.princpal-detalle img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.back-imag-detalle img{
+    border-radius: 5px;
+}
+
+.spam-decore-brand {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}

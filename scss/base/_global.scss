@@ -1,0 +1,56 @@
+/* body */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+main,
+p .body .footer .navar {
+    font-family: 'Rubik', sans-serif;
+    color: #383838;
+}
+
+p {
+    font-size: 16px;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #383838;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+footer {
+    text-align: left;
+    display: flex;
+    flex-wrap: nowrap;
+    background: #222222;
+    font-family: 'Rubik', sans-serif;
+    padding: 50px 0px 50px 0px;
+    font-size: 14px;
+}

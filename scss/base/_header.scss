@@ -1,0 +1,94 @@
+.header {
+    font-weight: 900;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 60px 80px 60px 80px;
+}
+
+.nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logohead {
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.menu-space {
+    padding-right: 10px;
+    flex-wrap: wrap;
+}
+
+.wrapmenu {
+    flex-wrap: wrap;
+}
+
+.logo-menu-mobile {
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.dropdown-menu {
+    border: none;
+    min-width: 250px;
+    padding: 20px 20px 20px 20px;
+}
+
+.dropdown-item {
+    font-size: 12px;
+    font-weight: 800;
+    z-index: 2;
+    color: #383838;
+    background-color: #ffff;
+    border-radius: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+.dropdown-item:hover {
+    background: #ffff;
+    color: #383838 !important;
+    border: 0;
+    border-radius: 0px;
+}
+
+.linea {
+    width: 200px;
+    height: 1px;
+    background: #888888;
+    display: block;
+    margin-bottom: 3px;
+    padding-right: 20px;
+}
+
+.contactohead1 {
+    font-weight: 900;
+    font-size: 12px;
+    margin: 10px 10px 10px 10px;
+}
+
+.contactohead3 {
+    font-weight: 900;
+    font-size: 12px;
+    margin: 40px 10px 10px 10px;
+}
+
+.contactohead2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.coordenadas {
+    margin-left: 30px;
+}
+
+.redesespacio {
+    margin: 20px 10px 20px 10px;
+}

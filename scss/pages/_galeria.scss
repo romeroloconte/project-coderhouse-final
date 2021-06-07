@@ -1,0 +1,80 @@
+.galeria-test {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.galeria-1 {
+    background-color: #FFC94D;
+    width: 90%;
+    height: 280px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 0px;
+    border-radius: 5px;
+    background-image: url(../img/home-desktop/grupo-464.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.galeria-1:hover {
+    transition: .4s ease;
+    box-shadow: 0px 0px 20px #888888
+}
+
+.galeria-2 {
+    background-color: #534219;
+    height: 600px;
+    width: 100%;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 0px;
+    border-radius: 5px;
+    background-image: url(../img/home-desktop/vhtsny_batch2_image5_finallarge.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.galeria-2:hover {
+    transition: .4s ease;
+    box-shadow: 0px 0px 20px #888888
+}
+
+.galeria-3 {
+    background-color: #FFC94D;
+    height: 600px;
+    width: 100%;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 0px;
+    text-align: center;
+    border-radius: 5px;
+    background-size: 20%;
+    background-repeat: no-repeat;
+}
+
+.galeria-3 img {
+    max-width: 100%;
+    width: auto;
+
+}
+
+.galeria-3:hover {
+    transition: .4s ease;
+    box-shadow: 0px 0px 20px #888888
+}
+
+.galeria-4 {
+    align-items: right;
+    width: 100%;
+    height: 280px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 0px;
+    border-radius: 5px;
+    background-image: url(../img/home-desktop/grupo-463.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.galeria-4:hover {
+    transition: .4s ease;
+    box-shadow: 0px 0px 20px #888888
+}

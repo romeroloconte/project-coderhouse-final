@@ -1,0 +1,53 @@
+.location1 {
+    background-color: #fff;
+    padding-top: 30px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.location1 h3 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.location1 p {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.location2 {
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+.location2 h3 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.location2 p {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.margenes-location1 {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.margenes-location2 {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.imagen-mapa img {
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.d-flex-contacto {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,176 @@
+/* Tres medidas que determinan el máximo 
+para tomar las propiedades que necesite 
+la pantalla */
+
+@media (max-width: 575.98px) {
+
+    .header-mobile {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: baseline;
+        align-content: center;
+    }
+
+    .nav-item {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    .logoshome  img{
+        display: none;
+        // display: flex;
+        // flex-direction: column;
+        // flex-wrap: wrap-reverse;
+        // justify-content: space-around;
+        // align-items: center;
+        // align-content: stretch;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footer-list {
+        display: none;
+    }
+
+    .margin-footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+        align-content: center;
+    }
+
+    .square-brand {
+        margin: 20px 0px 20px 0px;
+    }
+
+    .imagen-mapa img{
+        display: none;    
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    .logoshome  img{
+        display: none;
+        // display: flex;
+        // flex-direction: column;
+        // flex-wrap: wrap-reverse;
+        // justify-content: space-around;
+        // align-items: center;
+        // align-content: stretch;
+    }
+    
+    .contactos{
+        display: none;  
+    }
+
+    .collapse{
+        display: none;    
+    }
+
+    .redesespacio-footer{
+        display: none;    
+    }
+
+    .footer-redes{
+        display: none;    
+    }
+
+    .footer-list{
+        display: none;    
+    }
+
+    .contactos{
+        display: none;  
+    }
+
+    .imagen-mapa img{
+        display: none;    
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .contactos{
+        display: none;  
+    }
+
+    .collapse{
+        display: none;    
+    }
+
+    .redesespacio-footer{
+        display: none;    
+    }
+
+    .footer-redes{
+        display: none;    
+    }
+
+    .footer-list{
+        display: none;    
+    }
+
+    .contactos{
+        display: none;  
+    }
+
+    .imagen-mapa img{
+        display: none;    
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   
+    .contactos{
+        display: none;  
+    }
+
+    .collapse{
+        display: none;    
+    }
+
+    .redesespacio-footer{
+        display: none;    
+    }
+
+    .footer-redes{
+        display: none;    
+    }
+
+    .footer-list{
+        display: none;    
+    }
+
+    .contactos{
+        display: none;  
+    }
+
+    .imagen-mapa img{
+        display: none;    
+    }
+
+    .redesespacio-footer{
+        display: none;    
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1341px) {
+
+    .contactos{
+    display: none;  
+    }
+
+}
