@@ -38,6 +38,14 @@ la pantalla */
         display: none;
     }
 
+    .fotos-productos img{
+        display: none; 
+    }
+
+    .detalleproducto{
+        width: 410px;
+    }
+
     .margin-footer {
         display: flex;
         flex-direction: row;
@@ -85,6 +93,7 @@ la pantalla */
     .footer-redes{
         display: none;    
     }
+
 
     .footer-list{
         display: none;    

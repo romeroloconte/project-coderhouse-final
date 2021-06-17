@@ -21,9 +21,12 @@
         <!-- BOOSTRAP -->
         <link rel="stylesheet" href="css/bootstrap.min.css">	
         
+        <!-- Animate On Scroll Library -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        
         <!-- FLICKITY -->
         <link rel="stylesheet" href="css/flickity.min.css">
-        
+               
         <!-- Custom CSS -->
         <link rel="stylesheet" href="css/main.css">
     </head>
@@ -33,7 +36,7 @@
         <!-- HEADER -->
         <header class="container-fluid notmargin col-lg-12 col-md-12 col-sm-12 header navcolor ">
             <div class="row">
-                <nav class="navbar navbar-expand-sm header-mobile">
+                <nav class="navbar navbar-expand-sm header-mobile slide-in-blurred-top">
                     <ul class="nav-item dropdown menu-space burger">
                         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/icons/burger.svg"></a>
                         <li class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -123,30 +126,33 @@
             </section>
             <!-- SLIDER -->
 
-            <div class="center-elements">
-                <div class="titlecategorynoticias">
-                    <h1>PRODUCTOS</h1>
+            <div data-aos="fade-down">
+                <div class="center-elements mt-5 ">
+                    <div class="titlecategorynoticias">
+                        <h4>PRODUCTOS</h4>
+                    </div>
                 </div>
-            </div>
-            <div class="spam-decore">
-                <img src="img/icons/decore.svg" alt="decore">
+                <div class="spam-decore ">
+                    <img src="img/icons/decore.svg" alt="decore">
+                </div>
             </div>
 
 
             <section class="d-flex flex-row center-elements">
+                
+                <!-- PRODUCTOS 1-->
                 <div class="espacio">
                     <div>
-
                         <div class="container-md col-lg-12 col-md-12 col-sm-12">
                             <div class="col-md-auto logoshome">
-                                <img src="img/logo/logo01.png" alt="VHTS">
-                                <img src="img/logo/logo02.png" alt="VHTS-NEW-YORK">
+                                <img src="img/logo/logo01.png" alt="VHTS" data-aos="fade-right">
+                                <img src="img/logo/logo02.png" alt="VHTS-NEW-YORK" data-aos="fade-left">
                             </div>
                         </div>
                         
                         <!-- PRODUCTOS 1-->
                         <div class="center-elements-brands  d-flex flex-row center-elements">
-                            <div class="square-brand-product">                        
+                            <div class="square-brand-product" data-aos="fade-right">                         
                                 <div class="square-brand-text">
                                     <h3>MATHEUS DINIS</h3>
                                     <h6>COMPETITION BLUE</h6>
@@ -154,7 +160,7 @@
                                 </div>
                                 <img src="img/productos-desktop/blue.png" alt="gi-bue">
                             </div>
-                            <div class="square-brand-product">                        
+                            <div class="square-brand-product" data-aos="fade-left">                        
                                 <div class="square-brand-text">
                                     <h3>COMBAT SHORT</h3>
                                     <h6>ADCC EDITION LIMITED</h6>
@@ -163,17 +169,18 @@
                                 <img src="img/productos-desktop/tptfront.png" alt="tpt">
                             </div>
                         </div>
-                        
+
+                        <!-- PRODUCTOS 2-->
                         <div class="center-elements-brands  d-flex flex-row center-elements">
-                            <div class="square-brand-product">                        
+                            <div class="square-brand-product" data-aos="fade-right">                        
                                 <div class="square-brand-text">
                                     <h3>MATHEUS DINIS</h3>
-                                    <h6>COMPETITION WHITE</h6>
+                                    <h6>PEARL WHITE</h6>
                                     <a class="btn-header" href="gi-blue-2021-relases.html">VER</a>
                                 </div>
                                 <img src="img/productos-desktop/white.png" alt="gi-white">
                             </div>
-                            <div class="square-brand-product">                        
+                            <div class="square-brand-product" data-aos="fade-left">                        
                                 <div class="square-brand-text">
                                     <h3>ERROR NYC</h3>
                                     <h6>RASH GUARD</h6>
@@ -183,16 +190,17 @@
                             </div>
                         </div>
 
+                        <!-- PRODUCTOS 3-->
                         <div class="center-elements-brands center-elements1">
-                            <div class="square-brand-product">                        
+                            <div class="square-brand-product" data-aos="fade-right">                        
                                 <div class="square-brand-text">
                                     <h3>MATHEUS DINIS</h3>
-                                    <h6>COMPETITION BLACK</h6>
+                                    <h6>BLAC ON BLACK</h6>
                                     <a class="btn-header" href="gi-blue-2021-relases.html">VER</a>
                                 </div>
                                 <img src="img/productos-desktop/black.png" alt="gi-black">
                             </div>          
-                            <div class="square-brand-product">                        
+                            <div class="square-brand-product" data-aos="fade-left">                        
                                 <div class="square-brand-text">
                                     <h3>COMBAT SHORT</h3>
                                     <h6>NOGI STAR EDIT</h6>
@@ -203,22 +211,22 @@
                         </div>
                     </div>
                 </div>  
-                <!-- PRODUCTOS 1 -->  
+                <!-- PRODUCTOS -->  
                 
-                <!-- PRODUCTOS 2 -->  
+                <!-- PRODUCTOS -->  
                 <div class="center-elements1 espacio mb-5">
                     <div class="espacio">
                         <div>
 
                             <div class="container-md col-lg-12 col-md-12 col-sm-12">
                                 <div class="col-md-auto logoshome">
-                                    <img src="img/logo/logo03.png" alt="VERY HARD TO SUBMIT">
-                                    <img src="img/logo/logo04.png" alt="VHTS-CO">
+                                    <img src="img/logo/logo03.png" alt="VERY HARD TO SUBMIT" data-aos="fade-right">
+                                    <img src="img/logo/logo04.png" alt="VHTS-CO" data-aos="fade-left">
                                 </div>
                             </div>
 
                             <div class="center-elements-brands center-elements1">
-                                <div class="square-brand-product">                        
+                                <div class="square-brand-product" data-aos="fade-right">                        
                                     <div class="square-brand-text">
                                         <h3>HODIE NEW YORK</h3>
                                         <h6>COLLECT LTD</h6>
@@ -226,7 +234,7 @@
                                     </div>
                                     <img src="img/productos-desktop/vicereversechampred.png" alt="champered">
                                 </div>
-                                <div class="square-brand-product">                        
+                                <div class="square-brand-product" data-aos="fade-left">                        
                                     <div class="square-brand-text">
                                         <h3>"TRACKSUIT"</h3>
                                         <h6>JACKET</h6>
@@ -237,7 +245,7 @@
                             </div>
 
                             <div class="center-elements-brands center-elements1">
-                                <div class="square-brand-product">                        
+                                <div class="square-brand-product" data-aos="fade-right">                        
                                     <div class="square-brand-text">
                                         <h3>5 PANEL TECH HAT</h3>
                                         <h6>SHAPE 5</h6>
@@ -246,7 +254,7 @@
                                     <img src="img/productos-desktop/gorra.png" alt="gorra">
                                 </div>
                                 
-                                <div class="square-brand-product">                        
+                                <div class="square-brand-product" data-aos="fade-left">                        
                                     <div class="square-brand-text">
                                         <h3>MEA – SLIDE</h3>
                                         <h6>SANDALS CONFORTABLE </h6>
@@ -257,7 +265,7 @@
                             </div>
 
                             <div class="center-elements-brands center-elements1">
-                                <div class="square-brand-product">                        
+                                <div class="square-brand-product" data-aos="fade-right">                        
                                     <div class="square-brand-text">
                                         <h3>"VHTS JJC"</h3>
                                         <h6>OVERSIZED HOODIE</h6>
@@ -265,7 +273,7 @@
                                     </div>
                                     <img src="img/productos-desktop/hoodnavy.png" alt="hoodie">
                                 </div>                       
-                                <div class="square-brand-product">                        
+                                <div class="square-brand-product" data-aos="fade-left">                        
                                     <div class="square-brand-text">
                                         <h3>HEMP BELT</h3>
                                         <h6>SPECIAL EDITION</h6>
@@ -286,13 +294,13 @@
             <!-- PRE-FOOTER -->
             <section class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-6 col-sm-12 square-brand-closer notmargin">
+                    <div class="col-lg-6 col-sm-12 square-brand-closer notmargin" data-aos="fade-right">
                         <div >
                             <h6>SUSCRÍBETE AHORA</h6>
                             <h3>Y ENTÉRATE DE TODO</h3>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-sm-12 notmargin">
+                    <div class="col-lg-6 col-sm-12 notmargin" data-aos="fade-left">
                         <div class="formulariocloser">
                             <label class="sr-only" for="inlineFormInputGroupUsername2"></label>
                             <div class="input-group mb-2 mr-sm-2">
@@ -314,7 +322,7 @@
         <footer id="footer">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 notmargin">   
+                    <div class="col-lg-12 col-md-12 col-sm-12 notmargin" data-aos="fade-up">   
                         <div class="navbar margin-footer">
                             <ul >
                                 <li class="footer-contacts">
@@ -369,6 +377,8 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/flickity-docs.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init({once:"true"});</script>
         <!-- LIBRERIAS SCRIPT -->
 
     </body>

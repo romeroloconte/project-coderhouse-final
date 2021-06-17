@@ -1,4 +1,5 @@
 .header {
+       z-index: 30;
     font-weight: 900;
     background-color: #ffffff;
     display: flex;
@@ -41,7 +42,7 @@
 .dropdown-item {
     font-size: 12px;
     font-weight: 800;
-    z-index: 2;
+    z-index: 30;
     color: #383838;
     background-color: #ffff;
     border-radius: 0px;

@@ -21,9 +21,12 @@
         <!-- BOOSTRAP -->
         <link rel="stylesheet" href="css/bootstrap.min.css">	
         
+        <!-- Animate On Scroll Library -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        
         <!-- FLICKITY -->
         <link rel="stylesheet" href="css/flickity.min.css">
-        
+               
         <!-- Custom CSS -->
         <link rel="stylesheet" href="css/main.css">
     </head>
@@ -33,7 +36,7 @@
         <!-- HEADER -->
         <header class="container-fluid notmargin col-lg-12 col-md-12 col-sm-12 header navcolor ">
             <div class="row">
-                <nav class="navbar navbar-expand-sm header-mobile">
+                <nav class="navbar navbar-expand-sm header-mobile slide-in-blurred-top">
                     <ul class="nav-item dropdown menu-space burger">
                         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/icons/burger.svg"></a>
                         <li class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -124,20 +127,22 @@
             </section>
             <!-- SLIDERS -->
 
-            <div class="center-elements">
-                <div class="titlecategorynoticias">
-                    <h1>GALERÍA</h1>
+            <div data-aos="fade-down">
+                <div class="center-elements mt-5 ">
+                    <div class="titlecategorynoticias">
+                        <h4>GALERÍA</h4>
+                    </div>
+                </div>
+                <div class="spam-decore ">
+                    <img src="img/icons/decore.svg" alt="decore">
                 </div>
             </div>
-            <div class="spam-decore">
-                <img src="img/icons/decore.svg" alt="decore">
-            </div>
-            
+
             <!-- PROMO -->
-            <section class=" container-fluid mb-5 mt-5 ">
+            <section class="container-fluid mb-5 mt-5">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12 galeria-4">
+                        <div class="col-lg-12 galeria-4" data-aos="fade-down">
                             <div class="square-brand-text5">
                                 <h3>MATHEUS DINIS</h3>
                                 <h6>GI COMPETITION WHITE 5.0</h6>
@@ -148,36 +153,47 @@
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 galeria-2">
+                        <div class="col-lg-6 col-md-6 galeria-2" data-aos="fade-right">
                             <div class="square-brand-text4">
                                 <h3>HIG QUALITY</h3>
                                 <h6>BRAZILIAN JIU-JITSU 2021</h6>
                                 <a href="productos.html" class="btn-primary btn-header">VER MÁS</a>
                             </div>
                         </div>
-                        <div class="col-lg-5 col-md-3 galeria-3">
+                        <div class="col-lg-5 col-md-3 galeria-3" data-aos="fade-left">
                             <div class="square-brand-text3">
                                 <h3>ERROR NYC x Evan TATTOO</h3>
                                 <h6>SHORT SLVEEVES RASH GUARD</h6>
-                                <img src="img/home-desktop/rrgblackfront.png">
+                                <img src="img/home-desktop/rrgblackfront.png" alt="RASHGUARDS">
                                 <a href="productos.html" class="btn-primary btn-header">VER MÁS</a>
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 galeria-1" data-aos="fade-up">
+                            <div class="square-brand-text2">
+                                <h3>VHTS x BLIND BARBER</h3>
+                                <h6>COLLAB CREW NECK</h6>
+                                <a href="productos.html" class="btn-primary btn-header">VER MÁS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
-            <!-- PROMO -->  
+            <!-- PROMO -->
 
             <!-- PRE-FOOTER -->
-            <section class="container-fluid ">
+            <section class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-6 col-sm-12 square-brand-closer notmargin">
+                    <div class="col-lg-6 col-sm-12 square-brand-closer notmargin" data-aos="fade-right">
                         <div >
                             <h6>SUSCRÍBETE AHORA</h6>
                             <h3>Y ENTÉRATE DE TODO</h3>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-sm-12 notmargin">
+                    <div class="col-lg-6 col-sm-12 notmargin" data-aos="fade-left">
                         <div class="formulariocloser">
                             <label class="sr-only" for="inlineFormInputGroupUsername2"></label>
                             <div class="input-group mb-2 mr-sm-2">
@@ -199,7 +215,7 @@
         <footer id="footer">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 notmargin">   
+                    <div class="col-lg-12 col-md-12 col-sm-12 notmargin" data-aos="fade-up">   
                         <div class="navbar margin-footer">
                             <ul >
                                 <li class="footer-contacts">
@@ -254,10 +270,13 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/flickity-docs.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init({once:"true"});</script>
         <!-- LIBRERIAS SCRIPT -->
 
     </body>
 </html> 
+
 
 
 

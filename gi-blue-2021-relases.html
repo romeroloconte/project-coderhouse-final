@@ -21,9 +21,12 @@
         <!-- BOOSTRAP -->
         <link rel="stylesheet" href="css/bootstrap.min.css">	
         
+        <!-- Animate On Scroll Library -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        
         <!-- FLICKITY -->
         <link rel="stylesheet" href="css/flickity.min.css">
-        
+               
         <!-- Custom CSS -->
         <link rel="stylesheet" href="css/main.css">
     </head>
@@ -33,7 +36,7 @@
         <!-- HEADER -->
         <header class="container-fluid notmargin col-lg-12 col-md-12 col-sm-12 header navcolor ">
             <div class="row">
-                <nav class="navbar navbar-expand-sm header-mobile">
+                <nav class="navbar navbar-expand-sm header-mobile slide-in-blurred-top">
                     <ul class="nav-item dropdown menu-space burger">
                         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/icons/burger.svg"></a>
                         <li class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -131,13 +134,14 @@
             <!-- PERFIL PRODUCTO -->
             <section class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-md-8 mb-5 back-imag-detalle">
+
+                    <div class="col-lg-8 col-md-8 mb-5 back-imag-detalle" data-aos="fade-left">
                         <div class="princpal-detalle">
                         <img src="img/detalle-desktop/activo-1.jpg" alt="jackets-front">
                         </div>
                     </div>
 
-                    <aside class=" col-lg-4 col-md-4 mb-5 background-profile">
+                    <aside class=" col-lg-4 col-md-4 mb-5 background-profile" data-aos="fade-right">
                         <div class="detalleproducto">
                             <div>
                                 <h5>G 2021.</h5>                                
@@ -182,67 +186,70 @@
                             </div>    
                         </div>
                     </aside>
-                    <aside class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-8 mb-5">
-                                <div class="fotos-productos">
-                                    <img src="img/detalle-desktop/1-front.png" alt="jackets-front">
-                                    <img src="img/detalle-desktop/1-reverse.png" alt="jackets-reverse">
-                                    <img src="img/detalle-desktop/1-pant-frontt.png" alt="pants-front">
-                                    <img src="img/detalle-desktop/1-pant-reverse.png" alt="pants-reverse">
-                                </div>
-                            </div>
+
+                    <div class="col-lg-12 col-md-4 col-sm-1 b-5" data-aos="fade-up">
+                        <div class="fotos-productos">
+                            <img src="img/detalle-desktop/1-front.png" alt="jackets-front">
+                            <img src="img/detalle-desktop/1-reverse.png" alt="jackets-reverse">
+                            <img src="img/detalle-desktop/1-pant-frontt.png" alt="pants-front">
+                            <img src="img/detalle-desktop/1-pant-reverse.png" alt="pants-reverse">
                         </div>
-                    </aside>
+                    </div>
+
                 </div>
+      
             </section>
             <!-- PERFIL PRODUCTO -->
-            
-            <div class="center-elements mt-5">
-                <div class="titlecategorynoticias">
-                    <h4>PRODUCTOS</h4>
+
+            <div data-aos="fade-down">
+                <div class="center-elements mt-5">
+                    <div class="titlecategorynoticias">
+                        <h4>PRODUCTOS</h4>
+                    </div>
                 </div>
-            </div>
-            <div class="spam-decore">
-                <img src="img/icons/decore.svg" alt="">
+                <div class="spam-decore">
+                    <img src="img/icons/decore.svg" alt="">
+                </div>
             </div>
 
             <!-- CARRUSEL -->
-            <section class="carrousel mb-5" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true }'>
-                <div class="carrousel-cell-1">
-                    <h6>KIMONOS</h6>
+            <section data-aos="fade-up">
+                <div class="carrousel mt-5 mb-5 " data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true }'>
+                    <div class="carrousel-cell-1">
+                        <h6>KIMONOS</h6>
+                    </div>
+                    <div class="carrousel-cell-2">
+                        <h6>RASHGUARD</h6>
+                    </div>
+                    <div class="carrousel-cell-3">
+                        <h6>CASUAL</h6>
+                    </div>
+                    <div class="carrousel-cell-4">
+                        <h6>SHORTS</h6>
+                    </div>
+                    <div class="carrousel-cell-5">
+                        <h6>JACKETS</h6>
+                    </div>
+                    <div class="carrousel-cell-6">
+                        <h6>SANDALS</h6>
+                    </div>    
+                    <div class="carrousel-cell-1">
+                        <h6>KIMONOS</h6>
+                    </div>       
                 </div>
-                <div class="carrousel-cell-2">
-                    <h6>RASHGUARD</h6>
-                </div>
-                <div class="carrousel-cell-3">
-                    <h6>CASUAL</h6>
-                </div>
-                <div class="carrousel-cell-4">
-                    <h6>SHORTS</h6>
-                </div>
-                <div class="carrousel-cell-5">
-                    <h6>JACKETS</h6>
-                </div>
-                <div class="carrousel-cell-6">
-                    <h6>SANDALS</h6>
-                </div>    
-                <div class="carrousel-cell-1">
-                    <h6>KIMONOS</h6>
-                </div>      
-            </section> 
-            <!-- CARRUSEL --> 
+            </section>
+            <!-- CARRUSEL -->
 
             <!-- PRE-FOOTER -->
             <section class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-6 col-sm-12 square-brand-closer notmargin">
+                    <div class="col-lg-6 col-sm-12 square-brand-closer notmargin" data-aos="fade-right">
                         <div >
                             <h6>SUSCRÍBETE AHORA</h6>
                             <h3>Y ENTÉRATE DE TODO</h3>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-sm-12 notmargin">
+                    <div class="col-lg-6 col-sm-12 notmargin" data-aos="fade-left">
                         <div class="formulariocloser">
                             <label class="sr-only" for="inlineFormInputGroupUsername2"></label>
                             <div class="input-group mb-2 mr-sm-2">
@@ -256,7 +263,7 @@
                 </div>
             </section>
             <!-- PRE-FOOTER -->
-            
+
         </main>
         <!-- SECCION PRINCIPAL -->
 
@@ -264,7 +271,7 @@
         <footer id="footer">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 notmargin">   
+                    <div class="col-lg-12 col-md-12 col-sm-12 notmargin" data-aos="fade-up">   
                         <div class="navbar margin-footer">
                             <ul >
                                 <li class="footer-contacts">
@@ -319,10 +326,13 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/flickity-docs.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init({once:"true"});</script>
         <!-- LIBRERIAS SCRIPT -->
 
     </body>
 </html> 
+
 
 
 

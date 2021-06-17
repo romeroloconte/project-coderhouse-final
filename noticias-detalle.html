@@ -21,9 +21,12 @@
         <!-- BOOSTRAP -->
         <link rel="stylesheet" href="css/bootstrap.min.css">	
         
+        <!-- Animate On Scroll Library -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        
         <!-- FLICKITY -->
         <link rel="stylesheet" href="css/flickity.min.css">
-        
+               
         <!-- Custom CSS -->
         <link rel="stylesheet" href="css/main.css">
     </head>
@@ -33,7 +36,7 @@
         <!-- HEADER -->
         <header class="container-fluid notmargin col-lg-12 col-md-12 col-sm-12 header navcolor ">
             <div class="row">
-                <nav class="navbar navbar-expand-sm header-mobile">
+                <nav class="navbar navbar-expand-sm header-mobile slide-in-blurred-top">
                     <ul class="nav-item dropdown menu-space burger">
                         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/icons/burger.svg"></a>
                         <li class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -115,12 +118,12 @@
             </section>
 
             <!-- BANNER -->
-            <div class="noticiabanner">
+            <div class="noticiabanner" data-aos="fade-down">
                 <img src="img/noticias-desktop/matheusdinis.png" alt="matheus dinis, champ, addc">
             </div>
             <!-- BANNER -->
 
-            <article class="ml-5">
+            <article class="ml-5" data-aos="fade-up">
                 <div class="noticiastexto">
                     <div class="titulodetallenoticia">                        
                         <h1>MATHEUS DINIS - ADCC CHAMP</h1> 
@@ -160,13 +163,13 @@
             <!-- PRE-FOOTER -->
             <section class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-6 col-sm-12 square-brand-closer notmargin">
+                    <div class="col-lg-6 col-sm-12 square-brand-closer notmargin" data-aos="fade-right">
                         <div >
                             <h6>SUSCRÍBETE AHORA</h6>
                             <h3>Y ENTÉRATE DE TODO</h3>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-sm-12 notmargin">
+                    <div class="col-lg-6 col-sm-12 notmargin" data-aos="fade-left">
                         <div class="formulariocloser">
                             <label class="sr-only" for="inlineFormInputGroupUsername2"></label>
                             <div class="input-group mb-2 mr-sm-2">
@@ -188,7 +191,7 @@
         <footer id="footer">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 notmargin">   
+                    <div class="col-lg-12 col-md-12 col-sm-12 notmargin" data-aos="fade-up">   
                         <div class="navbar margin-footer">
                             <ul >
                                 <li class="footer-contacts">
@@ -243,6 +246,8 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/flickity-docs.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init({once:"true"});</script>
         <!-- LIBRERIAS SCRIPT -->
 
     </body>

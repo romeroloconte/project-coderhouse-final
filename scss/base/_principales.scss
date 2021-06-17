@@ -65,7 +65,7 @@
 
 .square-brand-product {
 	display: flex;
-	width: 480px;
+	width: 410px;
 	height: 240px;
 	margin: 10px 10px 10px 10px;
 	border-radius: 5px;
@@ -80,72 +80,6 @@
 		box-shadow: 0px 0px 20px #888888;
 	}
 }
-
-/* GRID DETALLE PRODUCTO */
-.contenedor {
-    display: grid;
-    grid-gap: 20px;
-    width: 90%;
-    max-width: auto;
-    text-align: center;
-    margin: 20px auto;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, auto);
-    grid-template-areas: "contenido contenido contenido contenido sidebar"
-                         "foto-1 foto-2 foto-3 foto-4 sidebar"
-}
-
-.contenedor>div,
-.contenedor .contenido,
-.contenedor .detalle {
-    padding: 20px;
-    overflow: hidden;
-    background: #f4f4f4;
-}
-
-.contenedor .contenido {
-    grid-area: contenido;
-}
-
-.contenedor .detalle {
-    grid-column: 3 / 4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    grid-area: sidebar;
-    background: #f4f4f4;
-}
-
-.contenedor .foto-1,
-.contenedor .foto-3,
-.contenedor .foto-2,
-.contenedor .foto-4 {
-    background: #f4f4f4;
-    color: rgb(66, 66, 66);
-    height: 200px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contenedor .foto-1 {
-    grid-area: foto-1;
-}
-
-.contenedor .foto-2 {
-    grid-area: foto-2;
-}
-
-.contenedor .foto-3 {
-    grid-area: foto-3;
-}
-
-.contenedor .foto-4 {
-    grid-area: foto-4;
-}
-
 
 
 .imput {
